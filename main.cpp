@@ -100,9 +100,9 @@ public:
 		}
 	}
 
-	Angle& operator=(const Angle& other) {
-        degrees = other.degrees;
-        minutes = other.minutes;
+	Angle& operator=(const Angle& second) {
+        degrees = second.degrees;
+        minutes = second.minutes;
         return *this;
     }
 
